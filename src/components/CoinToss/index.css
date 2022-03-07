@@ -1,0 +1,37 @@
+/* Write your CSS here */
+.app-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  width: 30%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  align-self: center;
+}
+.heading {
+  color: #e2a139;
+}
+.img-size {
+  height: 200px;
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+}
+.btn {
+  margin-top: 20px;
+  background-color: #f9d423;
+  color: #a35200;
+  border-width: 0px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.result {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
